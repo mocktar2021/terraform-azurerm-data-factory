@@ -1,0 +1,95 @@
+﻿# Terraform-related files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfplan
+.terraformrc
+terraform.rc
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+secrets.tf
+*.tfvars
+*.tfvars.json
+
+# Node.js artifacts
+node_modules/
+dist/
+
+# Java compiled files
+*.class
+
+# Python bytecode
+*.py[cod]
+__pycache__/
+
+# Logs and crash files
+*.log
+crash.log
+crash.*.log
+
+# Maven build output
+target/
+
+# JetBrains IDE (IntelliJ, PyCharm, etc.)
+.idea/
+
+# VS Code
+.vscode/
+
+# Unit test reports
+TEST*.xml
+
+# OS generated files (macOS, Windows)
+.DS_Store
+**/.DS_Store
+._*
+*~
+*.swp
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Archives and application binaries
+*.app
+*.war
+*.exe
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+#*.zip
+!**/context/*.zip   # Track .zip files in context directories in the root module
+
+# Media files (adjust based on project needs)
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Miscellaneous directories and files
+venv/
+build/
+.build-harness/
+*.iml
+*/env.rc
+*/data/*.pem
+*/data/*key
+*/data/*.pub
+**/.env
+
+# Custom files (adjust based on project needs)
+serverbase.cfg
+*serveroverride.cfg
+.terraform.lock.hcl
